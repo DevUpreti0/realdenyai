@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="icon" href="logo.png">
+        <title>AI DENNY - BY - DUKU OFFICIAL</title>
+        <style>
+            *
+            {
+                padding: 0;
+                margin: 0;
+            }
+
+            body
+            {
+                background: #1c1c1c;
+                width: 100%;
+            }
+            form
+            {
+                text-align: center;
+                margin-top: 20px;
+            }
+            #textField
+            {
+                border: 0;
+                outline: 0;
+                width: 90%;
+                height: 100px;
+                font: 50px tahoma;
+                background: #1c1c1c;
+                color: white;
+                opacity: 0.5;
+                border-bottom: 1px solid white;
+                transition: opacity 700ms;
+            }
+            #textField:hover
+            {
+                opacity: 1;
+            }
+            #askButton
+            {
+                border: 0;
+                outline: 0;
+                background: none;
+                color: white;
+                font: 30px existence;
+                cursor: pointer;
+                transition: color 300ms;
+            }
+            #askButton:hover, #askButton:focus
+            {
+                color: #505250;
+            }
+            #chatArea
+            {
+                width: 90%;
+                margin: 20px auto 0px;
+                font: 14px tahoma;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form id="mainForm" autocomplete="off">
+            <input id="textField" type="text" /><br/><br/>
+            <input id="askButton" type="submit" value="Ask!" />
+        </form>
+
+        <div id="chatArea">Hello, I am an DENNY created by Duku Official. How may I assist you?<br/><br/></div>
+    </body>
+
+    <script src="/mind/mind.js"></script>
+</html>
